@@ -23,6 +23,7 @@ body{
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
+    padding: 40px;
 }
 .banner-text-container p{
     color: rgb(13, 19, 33);
@@ -32,17 +33,62 @@ body{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    
 }
-.banner-text-container button{
-    color: rgb(246, 239, 239);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-    background-color: black;
+.btn-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.banner-button{
     width: 208px;
     height: 66px;
-    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 24;
 }
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+.main-text-container {
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.main-text-container h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+}
+.main-text-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 106;
+}
+.text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
