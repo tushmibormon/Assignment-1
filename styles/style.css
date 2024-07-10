@@ -199,4 +199,18 @@ body{
 .again-box-2 img{
     margin-right: 100px;
 }
+.ending-container{
+    width: 852px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ending-container p{
+    margin-top: 10px;
+}
+.vedio-section{
+    margin-top: 48px;
+}
 
