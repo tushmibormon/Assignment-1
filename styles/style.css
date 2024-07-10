@@ -59,18 +59,19 @@ body{
 .main-area-container{
     width: 1140px;
     height: 1395px;
-    border: 2px solid rgb(112, 22, 229);
     margin-top: 20px;
     display: flex;
     justify-content: start;
     margin: 0 auto;
     flex-direction: column;
     text-align: center;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
 }
 .title-container{
     width: 852px;
     height: 115px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -83,46 +84,80 @@ body{
      width: 946px; 
     /* width: 50%; */
     height: 336px;
-    border: 2px solid blue;
     margin: 0 auto;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
+    padding: 50px;
    
+}
+.box-1 h3{
+    width: 390px;
+    height: 72px;
+    text-align: left;
+}
+.box-1 p{
+    width: 468px;
+    height: 52px;
+    text-align: left;
 }
 .box-2{
     width: 946px;
     height: 336px;
-    border: 2px solid blue;
     margin: 0 auto;
     margin-top: 32px;
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-items: start;
+    padding: 50px;
 }
+.box-2 h3{
+    width: 468px;
+    height: 52px;
+    text-align: left;
+}
+.box-2 p{
+    width: 468px;
+    height: 52px;
+    text-align: left;
+}
+
 .box-3{
     width: 946px;
     height: 336px;
-    border: 2px solid blue;
     margin: 0 auto;
     margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 50px;
+}
+.box-3 h3{
+    width: 390px;
+    height: 72px;
+    text-align: left;
+}
+.box-3 p{
+    width: 468px;
+    height: 52px;
+    text-align: left;
 }
 .again-box-1{
     /* width: 850px; */
     width: 50%;
     height: 240px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 .again-box-2{
-    width: 850px;
+    width: 50%;
     height: 240px;
-    border: 2ps solid red;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .again-box-1 img{
     margin-left: 100px;
@@ -130,5 +165,38 @@ body{
 .box-1 button{
     width: 150px;
     height: 48px;
+    margin-top: 20px;
+}
+.again-box-2 img{
+    margin-right: 100px;
+}
+.box-2 button{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+}
+.again-box-3{
+    width: 50%px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.again-box-3 h4{
+    width: 390px;
+    height: 72px;
+}
+.box-3 p{
+    width: 468px;
+    height: 52px;
+}
+
+.again-box-3 button{
+    width: 149px;
+    height: 48px;
+    margin-top: 20px;
+}
+.again-box-2 img{
+    margin-right: 100px;
 }
 
