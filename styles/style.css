@@ -56,39 +56,41 @@ body{
     align-items: center;
     margin-top: 26px;
 }
-.main-text-container {
+.main-area-container{
     width: 1140px;
     height: 1395px;
+    border: 2px solid rgb(112, 22, 229);
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.title-container{
+    width: 852px;
+    height: 115px;
     border: 2px solid red;
     margin: 0 auto;
 }
-.main-text-container h2{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 80px;
+.box-1{
+    width: 946px;
+    height: 336px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-top: 48px;
 }
-.main-text-container p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 106;
+.box-2{
+    width: 946px;
+    height: 336px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-top: 32px;
 }
-.text h3{
-    color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
+.box-3{
+    width: 946px;
+    height: 336px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-top: 32px;
 }
 
