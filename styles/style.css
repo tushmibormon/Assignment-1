@@ -237,6 +237,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .inpire-container h2 {
@@ -297,7 +298,10 @@ body {
     gap: 30px;
     margin-top: 48px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+}
+.skill-description{
+    margin-bottom: 10px;
 }
 
 .images {
@@ -308,25 +312,26 @@ body {
 .images h4 {
     margin-top: 5px;
 }
-
-#midnight-button {
-    text-decoration-line: underline;
+.images a{
+    text-decoration: none;
     font-size: 16px;
-    color: rgb(13, 19, 33);
-    padding: 10px;
+    font-weight: 700;
+    color:#0d1321;
+    margin-top: 20px;
 }
 
 .footer-container {
-    border: 2px solid red;
     width: 1140px;
     height: 313px;
     margin: 0 auto;
     margin-top: 50px;
-    border-radius: 15px;
-    background-image: url(../assets/handshake.jpg);
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.451), transparent), url("../assets/handshake.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0, 4);
-    background-blend-mode: overlay;
+    /* background-blend-mode: overlay; */
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 16px;
 }
 
 .footer-content {
@@ -339,48 +344,73 @@ body {
     text-align: center;
     color: white;
     margin-top: 100px;
+    padding: 48px 64px;
 }
 
 .footer-content h1 {
-    margin-bottom: 30px;
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .footer-content p {
-    /* margin-bottom: 80px; */
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
 
-.form {
+.input-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+.footer-content input {
+    width: 548px;
+    height: 57px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
-    width: 548px;
-    height: 57px;
     background: rgb(255, 255, 255);
-    margin: 0 auto;
-    margin-top: 60px;
-    align-items: center;
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
 }
 
-.button {
+.input-section button {
     width: 120px;
-    height: 57px;
+    height: 58px;
+    margin-left: 16px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.footer2{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.foot-container{
+    max-width: 1140px;
+    height: 100px;
+    margin: 0 auto;
     display: flex;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    justify-content: space-between;
 }
-
-.last-section {
-    width: 1140px;
-    height: 36px;
-    /* border: 2px solid red; */
-    margin: 0 auto;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.last-section img {
-    gap: none;
+.footer-link-section>a>img{
+    margin-left: 15px;
 }
