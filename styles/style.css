@@ -13,7 +13,6 @@ body {
 .banner-container {
     width: 1440px;
     height: 652px;
-    border: 2px solid red;
     margin: 0 auto;
     background-image: url("/assets/Hero-bg.png");
     margin-top: 100px;
