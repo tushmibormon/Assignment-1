@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Azeret Mono;
 }
-.banner-container{
+
+.banner-container {
     width: 1440px;
     height: 652px;
     border: 2px solid red;
@@ -16,8 +18,9 @@ body{
     background-image: url("/assets/Hero-bg.png");
     margin-top: 100px;
 }
-.banner-text-container h1{
-    color: rgb(13, 19, 33);  
+
+.banner-text-container h1 {
+    color: rgb(13, 19, 33);
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -25,7 +28,8 @@ body{
     text-align: center;
     padding: 40px;
 }
-.banner-text-container p{
+
+.banner-text-container p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -33,30 +37,34 @@ body{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    
+
 }
-.btn-banner{
+
+.btn-banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 24px;
 }
-.banner-button{
+
+.banner-button {
     width: 208px;
     height: 66px;
     background-color: black;
     color: white;
     margin-top: 24;
 }
-.image-container{
+
+.image-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 26px;
 }
-.main-area-container{
+
+.main-area-container {
     width: 1140px;
     height: 1395px;
     margin-top: 20px;
@@ -69,19 +77,22 @@ body{
 
     background: rgba(13, 19, 33, 0.02);
 }
-.title-container{
+
+.title-container {
     width: 852px;
     height: 115px;
     margin: 0 auto;
     margin-top: 80px;
 }
-.title-container p{
+
+.title-container p {
     width: 852px;
     height: 52px;
     margin-top: 24px;
 }
-.box-1{
-     width: 946px; 
+
+.box-1 {
+    width: 946px;
     /* width: 50%; */
     height: 336px;
     margin: 0 auto;
@@ -89,40 +100,22 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 50px;
-   
+
 }
-.box-1 h3{
+
+.box-1 h3 {
     width: 390px;
     height: 72px;
     text-align: left;
 }
-.box-1 p{
-    width: 468px;
-    height: 52px;
-    text-align: left;
-}
-.box-2{
-    width: 946px;
-    height: 336px;
-    margin: 0 auto;
-    margin-top: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    padding: 50px;
-}
-.box-2 h3{
-    width: 468px;
-    height: 52px;
-    text-align: left;
-}
-.box-2 p{
+
+.box-1 p {
     width: 468px;
     height: 52px;
     text-align: left;
 }
 
-.box-3{
+.box-2 {
     width: 946px;
     height: 336px;
     margin: 0 auto;
@@ -132,17 +125,43 @@ body{
     align-items: start;
     padding: 50px;
 }
-.box-3 h3{
-    width: 390px;
-    height: 72px;
-    text-align: left;
-}
-.box-3 p{
+
+.box-2 h3 {
     width: 468px;
     height: 52px;
     text-align: left;
 }
-.again-box-1{
+
+.box-2 p {
+    width: 468px;
+    height: 52px;
+    text-align: left;
+}
+
+.box-3 {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 50px;
+}
+
+.box-3 h3 {
+    width: 390px;
+    height: 72px;
+    text-align: left;
+}
+
+.box-3 p {
+    width: 468px;
+    height: 52px;
+    text-align: left;
+}
+
+.again-box-1 {
     /* width: 850px; */
     width: 50%;
     height: 240px;
@@ -151,93 +170,108 @@ body{
     justify-content: center;
 
 }
-.again-box-2{
+
+.again-box-2 {
     width: 50%;
     height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.again-box-1 img{
+
+.again-box-1 img {
     margin-left: 100px;
 }
-.box-1 button{
+
+.box-1 button {
     width: 150px;
     height: 48px;
     margin-top: 20px;
 }
-.again-box-2 img{
+
+.again-box-2 img {
     margin-right: 100px;
 }
-.box-2 button{
+
+.box-2 button {
     width: 150px;
     height: 48px;
     margin-top: 20px;
 }
-.again-box-3{
+
+.again-box-3 {
     width: 50%px;
     height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.again-box-3 h4{
+
+.again-box-3 h4 {
     width: 390px;
     height: 72px;
 }
-.box-3 p{
+
+.box-3 p {
     width: 468px;
     height: 52px;
 }
 
-.again-box-3 button{
+.again-box-3 button {
     width: 149px;
     height: 48px;
     margin-top: 20px;
 }
-.again-box-2 img{
+
+.again-box-2 img {
     margin-right: 100px;
 }
-.inpire-container{
-    width: 1140px;
+
+.inpire-container {
+    max-width: 1140px;
     height: 775px;
-    border: 2px solid red;
+    margin: 0 auto;
     margin-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.inpire-container h2{
+
+.inpire-container h2 {
     width: 852px;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
     color: rgb(13, 19, 33);
 }
-.inpire-container p{
+
+.inpire-container p {
     margin-top: 24px;
     width: 852px;
 }
 
-.video-section{
+.video-section {
     margin-top: 48px;
     border-radius: 16px;
     width: 1140px;
     height: 614px;
 }
+
 /* assignment fourth section style strats hare */
 
-.current-container{
+.current-container {
     /* border: 2px solid red; */
     width: 1140px;
-height: 460px;
-margin: 0 auto;
-margin-top: 100px; 
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
-.current-text-container{
-/* border: 2px solid red; */
+
+.current-text-container {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -245,82 +279,108 @@ margin-top: 100px;
     align-items: center;
     width: 80%;
     height: 30%;
-    margin-top: 25px;}
-    .current-container h1{
-        font-size: 32px;
-    }
-    .current-container p{
-        font-size: 16px;
-        margin-top: 24px;
-    } 
-    /* skills section styles */
-    .skills-container{
-        display: flex;
-        gap: 30px;
-        margin-top: 48px;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .images{
-        padding: 30px;
-        margin-top: 35px;
-    }
-    .images h4{
-        margin-top: 5px;
-    }
-   #midnight-button{
+    margin-top: 25px;
+}
+
+.current-container h1 {
+    font-size: 32px;
+}
+
+.current-container p {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+/* skills section styles */
+.skills-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.images {
+    padding: 30px;
+    margin-top: 35px;
+}
+
+.images h4 {
+    margin-top: 5px;
+}
+
+#midnight-button {
     text-decoration-line: underline;
     font-size: 16px;
     color: rgb(13, 19, 33);
-   }
-/* assignment fourth section style ends hare */
+    padding: 10px;
+}
 
-/* footer styles section  */
-.footer-container{
+.footer-container {
     border: 2px solid red;
     width: 1140px;
-height: 313px;
-margin: 0 auto;
-margin-top: 50px;
-background-image: url(images/handshake.jpg);
-background-size: cover;
-background-color: rgba(0, 0, 0, 0, 4);
-background-blend-mode: overlay;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0, 4);
+    background-blend-mode: overlay;
 }
-.footer-content{
+
+.footer-content {
     /* border: 2px solid red; */
     width: 1044px;
-height: 185px;margin: 0 auto;
-display: flex;
-flex-direction: column;
-text-align: center;
-color: white;
-margin-top: 100px;
+    height: 185px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
 }
-.footer-content h1{
+
+.footer-content h1 {
     margin-bottom: 30px;
 }
-.footer-content p{
-   /* margin-bottom: 80px; */
+
+.footer-content p {
+    /* margin-bottom: 80px; */
 }
-.form{
+
+.form {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     width: 548px;
-height: 57px;
+    height: 57px;
     background: rgb(255, 255, 255);
     margin: 0 auto;
     margin-top: 60px;
     align-items: center;
 }
-.button{
+
+.button {
     width: 120px;
-height: 57px; 
-display: flex;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
+    height: 57px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
+.last-section {
+    width: 1140px;
+    height: 36px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last-section img {
+    gap: none;
+}
